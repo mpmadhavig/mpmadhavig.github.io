@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Madhavi Gayathri — Senior Software Engineer specializing in Identity & Access Management, Java, and ReactJS." />
+  <meta name="author" content="Madhavi Gayathri" />
+  <meta property="og:title" content="Madhavi Gayathri — Software Engineer" />
+  <meta property="og:description" content="Senior Software Engineer at WSO2, specializing in IAM, Java, and ReactJS." />
+  <meta property="og:type" content="website" />
+  <title>Madhavi Gayathri — Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="nav__logo" href="#hero" aria-label="Back to top">MG</a>
+
+      <ul class="nav__menu" id="nav-menu" role="list">
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#experience">Experience</a></li>
+        <li><a class="nav__link" href="#skills">Skills</a></li>
+        <li><a class="nav__link" href="#projects">Projects</a></li>
+        <li><a class="nav__link" href="#achievements">Achievements</a></li>
+        <li><a class="nav__link" href="#education">Education</a></li>
+        <li><a class="nav__link" href="#hobbies">Hobbies</a></li>
+        <li><a class="nav__link" href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section id="hero" class="hero" aria-label="Introduction">
+      <div class="hero__orbs" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+      </div>
+
+      <div class="hero__content container">
+
+        <div class="hero__avatar-ring" aria-hidden="true">
+          <div class="hero__avatar">
+            <img src="Profile-pic.jpg" alt="Madhavi Gayathri" />
+          </div>
+        </div>
+
+        <h1 class="hero__name">Madhavi Gayathri</h1>
+
+        <p class="hero__title">Senior Software Engineer</p>
+        <p class="hero__sub">WSO2 &nbsp;&middot;&nbsp; Colombo, Sri Lanka</p>
+
+        <div class="hero__links">
+          <a class="hero__link" href="mailto:mpmadhavigayathri@gmail.com" aria-label="Send email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+            mpmadhavigayathri@gmail.com
+          </a>
+          <a class="hero__link" href="https://linkedin.com/in/madhavi-gayathri" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a class="hero__link" href="https://github.com/mpmadhavig" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#about">Explore My Work</a>
+          <a class="btn btn--ghost" href="#contact">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <div class="hero__scroll-line"></div>
+        <span>scroll</span>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+    ============================================================ -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">About</p>
+          <h2 class="section-title" id="about-heading">Who I Am</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__text" data-animate>
+            <p>
+              I'm a <strong>passionate software engineer</strong> with <span id="years-exp-inline">—</span> years of professional experience,
+              including a <strong>6-month internship</strong> at Codegen International. 
+              Most part of my professional experience at WSO2 is primarily focused on
+              <strong>identity and access management</strong> &mdash; building secure,
+              scalable systems that millions of users rely on.
+            </p>
+            <p>
+              At WSO2, I work on the <strong>Identity Server &amp; Asgardeo</strong> team,
+              shipping features like user impersonation and driving performance
+              improvements across new releases while contributing to product maintainance. 
+              I've also stepped into a <strong>Solution Engineer</strong> role, working directly 
+              with enterprise customers to accommodate robust solutions combining all WSO2 products 
+              such as API Manager, Identity Server, and Ballerina Integrator.
+            </p>
+            <p>
+              Outside of my primary role, I serve as a <strong>Visiting Lecturer</strong> at the
+              University of Moratuwa, mentoring the next generation of engineers with
+              industry-level guidance. I'm a people-oriented engineer and emerging leader &mdash;
+              open to new ideas, who uses <strong>AI thoughtfully</strong> for work.
+            </p>
+          </div>
+
+          <div class="about__stats">
+            <div class="stat-card" data-animate>
+              <div class="stat-card__value" id="years-exp">—</div>
+              <div class="stat-card__label">Years of Experience</div>
+            </div>
+            <div class="stat-card" data-animate>
+              <div class="stat-card__value">3.68</div>
+              <div class="stat-card__label">CGPA &mdash; University of Moratuwa</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXPERIENCE
+    ============================================================ -->
+    <section id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Career</p>
+          <h2 class="section-title" id="experience-heading">Experience</h2>
+        </div>
+
+        <div class="timeline">
+
+          <!-- WSO2 — Senior SWE -->
+          <div class="timeline__item" data-animate>
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Senior Software Engineer</h3>
+                  <div class="timeline__company">WSO2 Lanka (Pvt) Ltd &middot; Full-time</div>
+                </div>
+                <div class="timeline__meta">
+                  <span class="timeline__period">Feb 2024 &ndash; Present</span>
+                  <span class="timeline__location">Colombo, Sri Lanka &middot; On-site</span>
+                </div>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Engineered product features on the <strong>Identity Server / Asgardeo</strong> IAM platform, including user session impersonation and comprehensive performance analysis on new releases.</li>
+                <li>Served as a <strong>Solution Architect</strong>, collaborating with enterprise customers to design and validate IAM architectures for complex deployments.</li>
+                <li>Contributed to a globally distributed team building identity infrastructure at scale.</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="timeline__tag">Java</span>
+                <span class="timeline__tag">ReactJS</span>
+                <span class="timeline__tag">JavaScript</span>
+                <span class="timeline__tag">IAM</span>
+                <span class="timeline__tag">Microservices</span>
+                <span class="timeline__tag">Git</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- WSO2 — SWE -->
+          <div class="timeline__item" data-animate>
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Software Engineer</h3>
+                  <div class="timeline__company">WSO2 &middot; Full-time</div>
+                </div>
+                <div class="timeline__meta">
+                  <span class="timeline__period">May 2022 &ndash; Feb 2024</span>
+                  <span class="timeline__location">Sri Lanka</span>
+                </div>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Developed and maintained features across the <strong>Identity Server</strong> product, gaining deep expertise in OAuth2, OIDC, and SAML-based identity flows.</li>
+                <li>Collaborated closely with senior engineers and architects to deliver scalable, secure solutions to enterprise clients.</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="timeline__tag">Java</span>
+                <span class="timeline__tag">OAuth2</span>
+                <span class="timeline__tag">OIDC</span>
+                <span class="timeline__tag">IAM</span>
+                <span class="timeline__tag">Git</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- UoM Visiting Lecturer 2025 -->
+          <div class="timeline__item" data-animate>
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Visiting Lecturer</h3>
+                  <div class="timeline__company">University of Moratuwa &middot; Part-time</div>
+                </div>
+                <div class="timeline__meta">
+                  <span class="timeline__period">Jul 2025 &ndash; Nov 2025</span>
+                  <span class="timeline__location">Sri Lanka</span>
+                </div>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Mentored students on developing <strong>industry-level software</strong> focused on AI-driven music genre and mood classification with personalised playlist generation.</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="timeline__tag">Project Management</span>
+                <span class="timeline__tag">Agile</span>
+                <span class="timeline__tag">AI / ML</span>
+                <span class="timeline__tag">Higher Education</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- UoM Visiting Lecturer 2024 -->
+          <div class="timeline__item" data-animate>
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Visiting Lecturer</h3>
+                  <div class="timeline__company">University of Moratuwa &middot; Part-time</div>
+                </div>
+                <div class="timeline__meta">
+                  <span class="timeline__period">Jun 2024 &ndash; Oct 2024</span>
+                  <span class="timeline__location">Sri Lanka</span>
+                </div>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Mentored undergraduate students on developing <strong>industry-level software</strong>, providing hands-on guidance and real-world engineering best practices.</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="timeline__tag">Higher Education</span>
+                <span class="timeline__tag">Guest Lecturing</span>
+                <span class="timeline__tag">Software Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Codegen -->
+          <div class="timeline__item" data-animate>
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Trainee Software Engineer</h3>
+                  <div class="timeline__company">CodeGen International &middot; Internship</div>
+                </div>
+                <div class="timeline__meta">
+                  <span class="timeline__period">Oct 2020 &ndash; Mar 2021</span>
+                  <span class="timeline__location">Sri Lanka</span>
+                </div>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Contributed to an <strong>agent-based hotel booking negotiation platform</strong> — a multi-party system enabling dynamic price negotiation between hotels and agents.</li>
+                <li>Built a <strong>price forecasting module</strong> using historical booking data to improve negotiation accuracy and hotel revenue outcomes.</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="timeline__tag">Git</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ACM -->
+          <div class="timeline__item" data-animate>
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Program Lead</h3>
+                  <div class="timeline__company">ACM Student Chapter, University of Moratuwa</div>
+                </div>
+                <div class="timeline__meta">
+                  <span class="timeline__period">Oct 2019 &ndash; Dec 2020</span>
+                  <span class="timeline__location">Sri Lanka</span>
+                </div>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Coordinated all events organised throughout the year and devised growth strategies for the chapter.</li>
+                <li>Grew membership significantly, achieving <strong>100+ participants</strong> for the 2021/2022 year.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- People's Bank -->
+          <div class="timeline__item" data-animate>
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Intern</h3>
+                  <div class="timeline__company">People's Bank</div>
+                </div>
+                <div class="timeline__meta">
+                  <span class="timeline__period">Jan 2017 &ndash; Jul 2017</span>
+                  <span class="timeline__location">Colombo District, Sri Lanka</span>
+                </div>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Managed a range of administrative tasks including inter-branch communication and <strong>documentation of loan inspections</strong>.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS
+    ============================================================ -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Expertise</p>
+          <h2 class="section-title" id="skills-heading">Skills</h2>
+        </div>
+
+        <div class="skills__groups" data-animate>
+          <div class="skill-group">
+            <h3 class="skill-group__label">Programming Languages</h3>
+            <div class="skill-group__tags">
+              <span class="skill-tag skill-tag--primary">Java</span>
+              <span class="skill-tag skill-tag--primary">Python</span>
+              <span class="skill-tag skill-tag--primary">JavaScript</span>
+              <span class="skill-tag skill-tag--primary">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__label">Frameworks &amp; Tools</h3>
+            <div class="skill-group__tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Spring Boot</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Flutter</span>
+              <span class="skill-tag">React Native</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__label">Specializations</h3>
+            <div class="skill-group__tags">
+              <span class="skill-tag skill-tag--accent">IAM</span>
+              <span class="skill-tag skill-tag--accent">Microservices</span>
+              <span class="skill-tag skill-tag--accent">Data Structures</span>
+              <span class="skill-tag skill-tag--accent">Solution Architecture</span>
+              <span class="skill-tag skill-tag--accent">Hardware Design (FPGA)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="languages__list" data-animate>
+          <h3 class="skill-group__label">Spoken Languages</h3>
+          <div class="languages__items">
+
+            <div class="lang-item">
+              <div class="lang-item__top">
+                <span class="lang-item__name">Sinhalese</span>
+                <span class="lang-item__level">Native</span>
+              </div>
+              <div class="lang-item__bar" aria-hidden="true">
+                <div class="lang-item__fill" style="--pct: 100%"></div>
+              </div>
+            </div>
+
+            <div class="lang-item">
+              <div class="lang-item__top">
+                <span class="lang-item__name">English</span>
+                <span class="lang-item__level">Professional working proficiency</span>
+              </div>
+              <div class="lang-item__bar" aria-hidden="true">
+                <div class="lang-item__fill" style="--pct: 80%"></div>
+              </div>
+            </div>
+
+            <div class="lang-item">
+              <div class="lang-item__top">
+                <span class="lang-item__name">Tamil</span>
+                <span class="lang-item__level">Limited working proficiency</span>
+              </div>
+              <div class="lang-item__bar" aria-hidden="true">
+                <div class="lang-item__fill" style="--pct: 40%"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS
+    ============================================================ -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Work</p>
+          <h2 class="section-title" id="projects-heading">Projects</h2>
+        </div>
+
+        <div class="projects__grid">
+
+          <article class="project-card" data-animate>
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">&#x1F510;</div>
+              <span class="project-card__assoc">WSO2</span>
+            </div>
+            <h3 class="project-card__title">User Impersonation</h3>
+            <p class="project-card__desc">
+              An IAM feature allowing an authorised user to impersonate another user. Developed the parts where impersonation properties are bound to the user session and persist seamlessly across multiple applications.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Java</span>
+              <span class="project-card__tag">Session Management</span>
+              <span class="project-card__tag">IAM</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">&#x1F30A;</div>
+            </div>
+            <h3 class="project-card__title">Flood Alert Warning System</h3>
+            <p class="project-card__desc">
+              A meteorological warning system developed in collaboration with the Irrigation Department of Sri Lanka. Designed to predict flood levels in areas close to certain river basins, aiding disaster preparedness.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Node.js</span>
+              <span class="project-card__tag">React Native</span>
+              <span class="project-card__tag">Civic Tech</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">&#x1F6CD;</div>
+            </div>
+            <h3 class="project-card__title">Clothing Platform</h3>
+            <p class="project-card__desc">
+              A cross-platform mobile e-commerce application for an apparel store, available on both Android and iOS. Delivered a smooth, native-like shopping experience.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">React Native</span>
+              <span class="project-card__tag">Mobile</span>
+              <span class="project-card__tag">E-Commerce</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">&#x1F4DA;</div>
+            </div>
+            <h3 class="project-card__title">Usasma Education</h3>
+            <p class="project-card__desc">
+              A Moodle-based LMS used by private tutors in Sri Lanka. Managed the live server and advised the development team on technical decisions.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Moodle</span>
+              <span class="project-card__tag">LMS</span>
+              <span class="project-card__tag">EdTech</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">&#x1F52D;</div>
+              <span class="project-card__assoc">University of Moratuwa</span>
+            </div>
+            <h3 class="project-card__title">Exploratory</h3>
+            <p class="project-card__desc">
+              A collaborative research platform serving as a common ground for researchers to share work, findings, and insights — making research discoverable and accessible online.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Git</span>
+              <span class="project-card__tag">Databases</span>
+              <span class="project-card__tag">Web Dev</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">&#x1F69A;</div>
+              <span class="project-card__assoc">University of Moratuwa</span>
+            </div>
+            <h3 class="project-card__title">Expeditor</h3>
+            <p class="project-card__desc">
+              An SCM system for a production company distributing goods via the railway system. Built the authentication module, user and store management, and report generation.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Git</span>
+              <span class="project-card__tag">Project Management</span>
+              <span class="project-card__tag">SCM</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">&#x2702;&#xFE0F;</div>
+              <span class="project-card__assoc">University of Moratuwa</span>
+            </div>
+            <h3 class="project-card__title">Tailor Mate</h3>
+            <p class="project-card__desc">
+              An application connecting tailors with customers — an ideal place for tailors to promote their designs and for consumers to find custom clothing.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Git</span>
+              <span class="project-card__tag">SQL</span>
+              <span class="project-card__tag">Mobile</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">&#x26A1;</div>
+            </div>
+            <h3 class="project-card__title">Hardware Accelerator for SOM Variant</h3>
+            <p class="project-card__desc">
+              Improved a hardware-friendly, energy-efficient clustering algorithm based on Self-Organizing Maps and implemented it on an FPGA — exploring the intersection of neural computation and embedded hardware.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">FPGA</span>
+              <span class="project-card__tag">Verilog</span>
+              <span class="project-card__tag">Python</span>
+              <span class="project-card__tag">C</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ACHIEVEMENTS
+    ============================================================ -->
+    <section id="achievements" aria-labelledby="achievements-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Recognition</p>
+          <h2 class="section-title" id="achievements-heading">Achievements</h2>
+        </div>
+
+        <div class="achievements__grid">
+
+          <div class="achievement-card" data-animate>
+            <div class="achievement-card__icon" aria-hidden="true">&#x1F4C4;</div>
+            <div class="achievement-card__body">
+              <h3 class="achievement-card__title">IEEE Research Publication</h3>
+              <p class="achievement-card__desc">
+                Co-authored a research paper on learning rule optimization and comparative
+                evaluation of accelerated self-organizing maps for industrial applications.
+              </p>
+              <span class="achievement-card__badge">IECON 2021 &mdash; IEEE IES</span>
+            </div>
+          </div>
+
+          <div class="achievement-card" data-animate>
+            <div class="achievement-card__icon" aria-hidden="true">&#x1F3C6;</div>
+            <div class="achievement-card__body">
+              <h3 class="achievement-card__title">Dean's List Award</h3>
+              <p class="achievement-card__desc">
+                Recognized for outstanding academic performance across three consecutive
+                semesters (Semesters 6, 7, &amp; 8) at the University of Moratuwa.
+              </p>
+              <span class="achievement-card__badge">3 Consecutive Semesters</span>
+            </div>
+          </div>
+
+          <div class="achievement-card" data-animate>
+            <div class="achievement-card__icon" aria-hidden="true">&#x1F310;</div>
+            <div class="achievement-card__body">
+              <h3 class="achievement-card__title">IEEEXtreme 13.0</h3>
+              <p class="achievement-card__desc">
+                Competed in the global IEEEXtreme Competitive Programming Competition &mdash;
+                ranked 271st worldwide and placed within the top 10 teams at
+                the University of Moratuwa.
+              </p>
+              <span class="achievement-card__badge">271st Globally</span>
+            </div>
+          </div>
+
+          <div class="achievement-card" data-animate>
+            <div class="achievement-card__icon" aria-hidden="true">&#x1F3AF;</div>
+            <div class="achievement-card__body">
+              <h3 class="achievement-card__title">DrivenData ML Competition</h3>
+              <p class="achievement-card__desc">
+                Ranked 86th out of 3,000+ teams globally in a 2021 machine learning
+                competition hosted by DrivenData &mdash; predicting H1N1 and seasonal flu
+                vaccination likelihood.
+              </p>
+              <span class="achievement-card__badge">Top 3% &mdash; 3000+ teams</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION
+    ============================================================ -->
+    <section id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Academic</p>
+          <h2 class="section-title" id="education-heading">Education</h2>
+        </div>
+
+        <div class="education__list">
+
+          <div class="edu-card" data-animate>
+            <div class="edu-card__year-block">
+              <div class="edu-card__year">2017</div>
+              <div class="edu-card__year-range">&ndash; 2022</div>
+            </div>
+            <div class="edu-card__divider" aria-hidden="true"></div>
+            <div class="edu-card__body">
+              <h3 class="edu-card__degree">BSc Engineering (Hons) &mdash; Computer Science &amp; Engineering</h3>
+              <p class="edu-card__institution">University of Moratuwa</p>
+              <p class="edu-card__detail">Full specialization in Computer Science &amp; Engineering with a strong foundation in algorithms, systems, and software engineering.</p>
+              <span class="edu-card__cgpa">CGPA 3.68 / 4.0</span>
+            </div>
+          </div>
+
+          <div class="edu-card" data-animate>
+            <div class="edu-card__year-block">
+              <div class="edu-card__year">2014</div>
+              <div class="edu-card__year-range">&ndash; 2016</div>
+            </div>
+            <div class="edu-card__divider" aria-hidden="true"></div>
+            <div class="edu-card__body">
+              <h3 class="edu-card__degree">G.C.E. Advanced Level Examination</h3>
+              <p class="edu-card__institution">Sirimavo Bandaranaike Vidyalaya</p>
+              <p class="edu-card__detail">Completed A/Ls with exceptional results in the Physical Science stream.</p>
+              <span class="edu-card__cgpa">Island Rank &mdash; 342</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HOBBIES
+    ============================================================ -->
+    <section id="hobbies" aria-labelledby="hobbies-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Beyond the Code</p>
+          <h2 class="section-title" id="hobbies-heading">Hobbies &amp; Interests</h2>
+          <p class="section-desc">
+            I strongly believe in work-life balance. Having a life outside of work keeps me energised,
+            creative, and grounded. Engaging in team sport is what makes me a good team player at work.
+            Singing is my creative outlet that helps me find flow and expression.
+          </p>
+        </div>
+
+        <div class="hobbies__grid">
+
+          <div class="hobby-card" data-animate>
+            <div class="hobby-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M4.93 4.93C7.24 7.24 9 9.5 9 12s-1.76 4.76-4.07 7.07M19.07 4.93C16.76 7.24 15 9.5 15 12s1.76 4.76 4.07 7.07M12 2c0 2.76-1.12 5.24-2.93 7.07M12 22c0-2.76 1.12-5.24 2.93-7.07"/></svg>
+            </div>
+            <h3 class="hobby-card__title">Basketball</h3>
+            <p class="hobby-card__desc">Fast-paced teamwork on the court. Strategy, coordination, and a healthy dose of competition.</p>
+          </div>
+
+          <div class="hobby-card" data-animate>
+            <div class="hobby-card__icon" aria-hidden="true">
+              <!-- Badminton shuttlecock-inspired icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21 L12 9"/><path d="M12 9 C13 6 15 4 18 3 C21 2 22 3 21 6 C20 9 18 11 15 12 C12 13 10 12 9 10Z"/><line x1="15" y1="12" x2="12" y2="9"/></svg>
+            </div>
+            <h3 class="hobby-card__title">Badminton</h3>
+            <p class="hobby-card__desc">Quick reflexes, sharp focus, and great fun. Whether it's a casual rally or a proper match, badminton keeps me on my toes.</p>
+          </div>
+
+          <div class="hobby-card" data-animate>
+            <div class="hobby-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            </div>
+            <h3 class="hobby-card__title">Singing</h3>
+            <p class="hobby-card__desc">My creative outlet. Singing is where I find flow, expression, and a little bit of magic.</p>
+          </div>
+
+          <div class="hobby-card" data-animate>
+            <div class="hobby-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+            </div>
+            <h3 class="hobby-card__title">Movies</h3>
+            <p class="hobby-card__desc">A good film is a good story — I love exploring different genres, narratives, and the craft of storytelling through cinema.</p>
+          </div>
+
+          <div class="hobby-card hobby-card--pending" data-animate>
+            <div class="hobby-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3 class="hobby-card__title">Pending Next</h3>
+            <p class="hobby-card__desc">I'm an explorer at heart. Always open to discovering something new.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+    ============================================================ -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Connect</p>
+          <h2 class="section-title" id="contact-heading">Get In Touch</h2>
+        </div>
+
+        <p class="contact__intro">
+          Open to new opportunities, collaborations, and interesting conversations.
+          Feel free to reach out through any of the channels below.
+        </p>
+
+        <div class="contact__cards">
+
+          <a class="contact-card" href="mailto:mpmadhavigayathri@gmail.com" data-animate aria-label="Send email to Madhavi">
+            <div class="contact-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+            </div>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">mpmadhavigayathri<wbr>@gmail.com</span>
+          </a>
+
+          <a class="contact-card" href="https://linkedin.com/in/madhavi-gayathri" target="_blank" rel="noopener noreferrer" data-animate aria-label="LinkedIn profile">
+            <div class="contact-card__icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">madhavi-gayathri</span>
+          </a>
+
+          <a class="contact-card" href="https://github.com/mpmadhavig" target="_blank" rel="noopener noreferrer" data-animate aria-label="GitHub profile">
+            <div class="contact-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </div>
+            <span class="contact-card__label">GitHub</span>
+            <span class="contact-card__value">mpmadhavig</span>
+          </a>
+
+          <div class="contact-card" data-animate>
+            <div class="contact-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span class="contact-card__label">Location</span>
+            <span class="contact-card__value">Colombo, Sri Lanka</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer__inner container">
+      <p class="footer__copy">
+        &copy; <span id="footer-year"></span> <span>Madhavi Gayathri</span>. Built with passion &amp; code.
+      </p>
+      <div class="footer__links">
+        <a class="footer__link" href="https://linkedin.com/in/madhavi-gayathri" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+        <a class="footer__link" href="https://github.com/mpmadhavig" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+        <a class="footer__link" href="mailto:mpmadhavigayathri@gmail.com" aria-label="Email">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
